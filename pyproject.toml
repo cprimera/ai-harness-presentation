@@ -7,7 +7,9 @@ authors = [
     { name = "Christopher Primerano", email = "cprimera@mac.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 harness = "harness:main"
